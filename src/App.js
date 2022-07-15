@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Switch>
         //한번에 하나의 router만 렌더링 하기 위해서 Switch
-        <Route path="/movie">
+        <Route path="/movie/:id">
           <Detail />
         </Route>
         <Route path="/">
